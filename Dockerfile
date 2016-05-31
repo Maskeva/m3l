@@ -17,4 +17,4 @@ ADD ./etc/shadowsocks.json /etc/
 
 EXPOSE $SS_SERVER_PORT
 
-CMD /usr/bin/ssserver -c /etc/shadowsocks.json
+CMD ssserver -c /etc/shadowsocks.json
