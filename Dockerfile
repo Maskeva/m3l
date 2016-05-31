@@ -2,7 +2,8 @@ FROM centos:7
 
 MAINTAINER Maskeva <zhongguoyinhang_17@qq.com>
 
-RUN yum install python-setuptools && easy_install pip
+RUN yum -y update; yum clean all
+RUN yum -y install python-setuptools && easy_install pip
 RUN pip install shadowsocks
 
 ENV SS_SERVER_ADDR 0.0.0.0
