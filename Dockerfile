@@ -1,4 +1,4 @@
-FROM centos：7
+FROM centos:7
 
 MAINTAINER Maskeva <zhongguoyinhang_17@qq.com>
 
