@@ -13,8 +13,8 @@ ENV SS_PASSWORD password
 ENV SS_METHOD aes-256-cfb
 ENV SS_TIMEOUT 300
 
-ADD shadowsocks.json /etc/
+ADD ./etc/shadowsocks.json /etc/
 
 EXPOSE $SS_SERVER_PORT
 
-RUN ssserver -c /etc/shadowsocks.json
+CMD /usr/bin/ssserver -c /etc/shadowsocks.json
