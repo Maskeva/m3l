@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "--------------------------------------------------------"
-echo " server port: $SS_SERVER_PORT password: $SS_PASSWORD "
+echo " server password: $SS_PASSWORD "
 echo "              encryption method: $SS_METHOD         "
 echo "--------------------------------------------------------"
 
