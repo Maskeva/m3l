@@ -14,5 +14,9 @@ ENV SS_METHOD aes-256-cfb
 ENV SS_TIMEOUT 300
 
 ADD shadowsocks.json /root/
+ADD start.sh /usr/bin/start.sh
+RUN chmod 755 /usr/bin/start.sh
 
 EXPOSE $SS_SERVER_PORT
+
+CMD ["sh", "-c", "/start.sh"]
