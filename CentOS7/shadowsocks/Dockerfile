@@ -17,6 +17,6 @@ ADD shadowsocks.json /root/
 ADD start.sh /usr/bin/start.sh
 RUN chmod 755 /usr/bin/start.sh
 
-EXPOSE $SS_SERVER_PORT
+EXPOSE 8389
 
 CMD ["sh", "-c", "start.sh"]
