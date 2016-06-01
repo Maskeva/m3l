@@ -6,5 +6,5 @@ echo "              encryption method: $SS_METHOD         "
 echo "--------------------------------------------------------"
 
 
-ssserver -s $SS_SERVER_ADDR -p $SS_SERVER_PORT -k $SS_PASSWORD -m $SS_METHOD -t $SS_TIMEOUT
+ssserver -s 0.0.0.0 -p 9528 -k $SS_PASSWORD -m $SS_METHOD -t 300
 #ssserver -c /root/shadowsocks.json -d start
