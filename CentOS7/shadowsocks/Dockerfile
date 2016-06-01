@@ -19,4 +19,4 @@ RUN chmod 755 /usr/bin/start.sh
 
 EXPOSE $SS_SERVER_PORT
 
-CMD ["sh", "-c", "/start.sh"]
+CMD ["sh", "-c", "start.sh"]
