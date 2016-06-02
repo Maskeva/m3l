@@ -8,7 +8,7 @@ RUN yum -y install python-setuptools && easy_install pip
 RUN pip install shadowsocks
 
 #ENV SS_ADDR 0.0.0.0
-ENV $SS_PORT 9528
+ENV SS_PORT 9528
 ENV SS_PASSWORD 123456
 ENV SS_METHOD aes-256-cfb
 #ENV SS_TIMEOUT 300
