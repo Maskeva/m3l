@@ -4,7 +4,7 @@
 
 FROM centos:7
 
-TShock 4.3.16 for Terraria 1.3.1.1 (API v1.23)
+MAINTAINER Maskeva <zhongguoyinhang_17@qq.com>
 
 RUN yum -y update; yum clean all
 
