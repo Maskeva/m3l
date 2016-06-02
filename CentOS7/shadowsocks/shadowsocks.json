@@ -1,6 +1,6 @@
 {
     "server":"0.0.0.0",
-    "server_port":$SS_SERVER_P,
+    "server_port":$SS_PORT,
     "local_address": "127.0.0.1",
     "local_port":1080,
     "password":"$SS_PASSWORD",
