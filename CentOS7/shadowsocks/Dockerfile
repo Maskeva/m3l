@@ -3,7 +3,7 @@ FROM centos
 MAINTAINER Maskeva <zhongguoyinhang_17@qq.com>
 
 RUN yum -y update; yum clean all
-RUN yum install -y m2crypto openssl-devel; yum clean all
+RUN yum install -y m2crypto openssl-devel && yum clean all
 RUN yum -y install python-setuptools && easy_install pip
 RUN pip install shadowsocks
 
