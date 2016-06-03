@@ -34,11 +34,11 @@ ENV T_PORT 7777
 
 ADD https://github.com/NyxStudios/TShock/releases/download/v$T_VERSION/tshock_$T_VERSION.zip /root
 
-RUN cd /root %% unzip tshock_$T_VERSION.zip -d /root/t-server
+RUN cd /root && unzip tshock_$T_VERSION.zip -d /root/t-server
 
 WORKDIR /root/t-server
 
-RUN cd /root/t-server && chmod 755 TerrariaServer.exe
+RUN cd /root/t-server && sudo chmod 755 TerrariaServer.exe
 
 #VOLUME ["$T_WORLD","T_CONFIG","T_PLUG"]
 
