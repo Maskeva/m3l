@@ -40,7 +40,9 @@ WORKDIR /root/t-server
 
 RUN cd /root/t-server 
 
-#VOLUME ["$T_WORLD","T_CONFIG","T_PLUG"]
+#声明端口和数据文件
+
+VOLUME ["$T_WORLD","T_CONFIG","T_PLUG"]
 
 EXPOSE $T_PORT
 
