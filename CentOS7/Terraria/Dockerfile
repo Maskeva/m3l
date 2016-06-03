@@ -42,10 +42,8 @@ RUN cd /root/t-server
 
 #声明端口和数据文件
 
-VOLUME ["$T_WORLD","T_CONFIG","T_PLUG"]
+#VOLUME ["$T_WORLD","T_CONFIG","T_PLUG"]
 
 EXPOSE $T_PORT
 
-EXPOSE 22
-
-CMD ["mono","TerrariaServer.exe"]
+CMD ["/run.sh"]
