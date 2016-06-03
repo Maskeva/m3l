@@ -1,10 +1,12 @@
-# TShock 4.3.16 for Terraria 1.3.1.1 (API v1.23)
+# TShock $T_VERSION for Terraria 1.3.1.1 (API v1.23)
 
 # Test
 
-FROM centos:7
+FROM tutum/centos
 
 MAINTAINER Maskeva <zhongguoyinhang_17@qq.com>
+
+#安装mono
 
 RUN yum -y update; yum clean all
 
@@ -14,4 +16,32 @@ RUN rpm --import "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3FA7E03
 
 RUN yum-config-manager --add-repo http://download.mono-project.com/repo/centos/
 
-CMD ["mono","-v"]
+RUN yum-mono-complete.x86_64
+
+#设置环境变量
+
+ENV T_VERSION 4.3.16
+
+ENV T_WORLD "/root/My Games/Terraria/Worlds"
+
+ENV T_CONFIG "/root/t-server/tshock"
+
+ENV T_PLUG "/root/t-server/ServerPlugins"
+
+ENV T_PORT 7777
+
+#下载&&安装Terraria服务器包
+
+ADD https://github.com/NyxStudios/TShock/releases/download/v$T_VERSION/tshock_$T_VERSION.zip /root
+
+RUN cd /root %% unzip tshock_$T_VERSION.zip -d /root/t-server
+
+WORKDIR /root/t-server
+
+RUN chmod 755 TerrariaServer.exe
+
+#VOLUME ["$T_WORLD","T_CONFIG","T_PLUG"]
+
+EXPOSE $T_PORT
+
+CMD ["mono","TerrariaServer.exe"]
