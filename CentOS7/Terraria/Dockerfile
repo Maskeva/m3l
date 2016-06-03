@@ -38,7 +38,7 @@ RUN cd /root %% unzip tshock_$T_VERSION.zip -d /root/t-server
 
 WORKDIR /root/t-server
 
-RUN chmod 755 TerrariaServer.exe
+RUN cd /root/t-server && chmod 755 TerrariaServer.exe
 
 #VOLUME ["$T_WORLD","T_CONFIG","T_PLUG"]
 
