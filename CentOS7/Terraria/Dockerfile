@@ -16,7 +16,7 @@ RUN rpm --import "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x3FA7E03
 
 RUN yum-config-manager --add-repo http://download.mono-project.com/repo/centos/
 
-RUN yum mono-complete.x86_64
+RUN yum -y mono-complete.x86_64
 
 #设置环境变量
 
