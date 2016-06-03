@@ -44,4 +44,6 @@ RUN chmod 755 TerrariaServer.exe
 
 EXPOSE $T_PORT
 
+EXPOSE 22
+
 CMD ["mono","TerrariaServer.exe"]
