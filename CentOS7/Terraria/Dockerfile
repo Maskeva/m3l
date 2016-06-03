@@ -24,9 +24,7 @@ ENV T_VERSION 4.3.16
 
 ENV T_WORLD "/root/My Games/Terraria/Worlds"
 
-ENV T_CONFIG "/root/t-server/tshock"
-
-ENV T_PLUG "/root/t-server/ServerPlugins"
+ENV T_DATA "/root/t-server"
 
 ENV T_PORT 7777
 
@@ -42,7 +40,7 @@ RUN cd /root/t-server
 
 #声明端口和数据文件
 
-#VOLUME ["$T_WORLD","T_CONFIG","T_PLUG"]
+VOLUME ["$T_WORLD","T_DATA"]
 
 EXPOSE $T_PORT
 
