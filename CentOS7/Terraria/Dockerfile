@@ -24,15 +24,17 @@ ENV T_VERSION 4.3.16
 
 ENV T_WORLD "/root/My Games/Terraria/Worlds"
 
-ENV T_DATA "/root/t-server"
+ENV T_DATA "/root"
 
 ENV T_PORT 7777
 
 #下载&&安装Terraria服务器包
 
-ADD https://github.com/NyxStudios/TShock/releases/download/v$T_VERSION/tshock_$T_VERSION.zip /root
+RUN mkdir /download
 
-RUN cd /root && unzip tshock_$T_VERSION.zip -d /root/t-server
+ADD https://github.com/NyxStudios/TShock/releases/download/v$T_VERSION/tshock_$T_VERSION.zip /root/download
+
+RUN cd /root/download && unzip tshock_$T_VERSION.zip -d /root/t-server
 
 WORKDIR /root/t-server
 
