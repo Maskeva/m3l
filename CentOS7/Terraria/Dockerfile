@@ -40,7 +40,7 @@ RUN cd /root/t-server
 
 #声明端口和数据文件
 
-VOLUME ["$T_WORLD","T_DATA"]
+VOLUME ["$T_WORLD","$T_DATA"]
 
 EXPOSE $T_PORT
 
