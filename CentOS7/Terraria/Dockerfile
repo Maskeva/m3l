@@ -30,11 +30,11 @@ ENV T_PORT 7777
 
 #下载&&安装Terraria服务器包
 
-RUN mkdir /download
+RUN mkdir download
 
-ADD https://github.com/NyxStudios/TShock/releases/download/v$T_VERSION/tshock_$T_VERSION.zip /root/download
+ADD https://github.com/NyxStudios/TShock/releases/download/v$T_VERSION/tshock_$T_VERSION.zip /download
 
-RUN cd /root/download && unzip tshock_$T_VERSION.zip -d /root/t-server
+RUN cd /download && unzip tshock_$T_VERSION.zip -d /root/t-server
 
 WORKDIR /root/t-server
 
