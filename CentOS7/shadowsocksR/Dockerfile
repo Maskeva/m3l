@@ -2,7 +2,6 @@ FROM tutum/centos
 
 MAINTAINER Maskeva <zhongguoyinhang_17@qq.com>
 
-RUN yum -y update; yum clean all
 RUN yum install git -y
 RUN mkdir /SSR
 RUN git clone https://github.com/shadowsocksr/shadowsocksr.git /SSR/
