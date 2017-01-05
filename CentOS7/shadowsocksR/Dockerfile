@@ -7,9 +7,10 @@ RUN git clone https://github.com/shadowsocksr/shadowsocksr.git /shadowsocksr
 
 
 ENV SSR_PORT 7766
-ENV SSR_PASSWORD gougou
-ENV SSR_PROTOCOL origin
-ENV SSR_OBFS plain
+#ENV SSR_PORT 7766
+#ENV SSR_PASSWORD gougou
+#ENV SSR_PROTOCOL origin
+#ENV SSR_OBFS plain
 
 ADD user-config.json /shadowsocksr
 ADD start.sh /usr/bin/start.sh
