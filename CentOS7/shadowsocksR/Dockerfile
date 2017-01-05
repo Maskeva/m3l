@@ -1,4 +1,4 @@
-FROM tutum/centos:centos7
+FROM centos
 
 MAINTAINER Maskeva <zhongguoyinhang_17@qq.com>
 
@@ -18,6 +18,8 @@ ENV SSR_PROTOCOL origin
 ENV SSR_OBFS plain
 
 ADD user-config.json /SSR/shadowsocksr/
+ADD start.sh /usr/bin/start.sh
+RUN chmod 755 /usr/bin/start.sh
 
 EXPOSE $SSR_PORT
 
