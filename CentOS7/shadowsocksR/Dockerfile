@@ -8,6 +8,7 @@ RUN cd /
 RUN mkdir SSR
 RUN cd /SSR
 RUN git clone -b manyuser https://github.com/shadowsocksr/shadowsocksr.git
+RUM chmod 777 /SSR/shadowsocksr/initcfg.sh
 RUN bash /SSR/shadowsocksr/initcfg.sh
 
 
