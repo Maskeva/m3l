@@ -13,7 +13,7 @@ ENV SSR_PASSWORD gougou
 ENV SSR_PROTOCOL origin
 ENV SSR_OBFS plain
 
-ADD user-config.json /SSR/
+ADD user-config.json /shadowsocksr/
 ADD start.sh /usr/bin/start.sh
 RUN chmod 755 /usr/bin/start.sh
 
