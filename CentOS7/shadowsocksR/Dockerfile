@@ -18,4 +18,4 @@ RUN chmod 755 /usr/bin/start.sh
 
 EXPOSE $SSR_PORT
 
-CMD ["start.sh"]
+#CMD ["start.sh"]
