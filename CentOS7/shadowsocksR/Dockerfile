@@ -3,7 +3,7 @@ FROM tutum/centos:centos7
 MAINTAINER Maskeva <zhongguoyinhang_17@qq.com>
 
 RUN yum -y update; yum clean all
-RUN yum git
+RUN yum install git -y
 RUN cd /
 RUN mkdir SSR
 RUN cd /SSR
