@@ -1,4 +1,4 @@
-FROM centos
+FROM tutum/centos
 
 MAINTAINER Maskeva <zhongguoyinhang_17@qq.com>
 
