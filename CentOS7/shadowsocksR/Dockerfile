@@ -5,8 +5,7 @@ MAINTAINER Maskeva <zhongguoyinhang_17@qq.com>
 RUN yum -y update; yum clean all
 RUN yum install git -y
 RUN mkdir /SSR
-RUN cd /SSR && git clone https://github.com/shadowsocksr/shadowsocksr.git
-RUN chmod +x /SSR/shadowsocksr/initcfg.sh && bash /SSR/shadowsocksr/initcfg.sh
+RUN cd /SSR && git clone https://github.com/shadowsocksr/shadowsocksr.git && bash /SSR/shadowsocksr/initcfg.sh
 
 
 ENV SSR_PORT 7766
