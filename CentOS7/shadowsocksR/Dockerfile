@@ -3,10 +3,9 @@ FROM tutum/centos
 MAINTAINER Maskeva <zhongguoyinhang_17@qq.com>
 
 RUN yum install git -y
-RUN mkdir /SSR
-RUN git clone https://github.com/shadowsocksr/shadowsocksr.git /SSR/
-ADD initcfg.sh /SSR/
-RUN bash /SSR/initcfg.sh
+RUN git clone https://github.com/shadowsocksr/shadowsocksr.git /shadowsocksr
+ADD initcfg.sh /shadowsocksr
+RUN bash /shadowsocksr/initcfg.sh
 
 
 ENV SSR_PORT 7766
