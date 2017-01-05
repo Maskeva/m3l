@@ -6,6 +6,7 @@ RUN yum -y update; yum clean all
 RUN yum install git -y
 RUN mkdir /SSR
 RUN git clone https://github.com/shadowsocksr/shadowsocksr.git /SSR/
+ADD initcfg.sh /SSR/
 RUN bash /SSR/initcfg.sh
 
 
