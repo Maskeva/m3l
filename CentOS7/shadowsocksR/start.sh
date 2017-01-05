@@ -8,4 +8,4 @@ echo "--------------------------------------------------------"
 
 
 
-python /SSR/shadowsocksr/shadowsocks/server.py -d start
+python /SSR/shadowsocks/server.py -d start
