@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "APEX",
-      "name": "超级看",
+      "name": "暴风资源",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "searchable": 1,
@@ -10,9 +10,11 @@
       "filterable": 1,
       "categories": [
         "国产剧",
-        "欧美剧",
-        "韩国剧",
-        "日本剧"
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "科幻片",
+        "大陆综艺"
       ]
     }
   ],
@@ -25,13 +27,9 @@
   ],
   "lives": [
     {
-      "name": "测试",
+      "name": "电视直播",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/live.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "https://epg.mxdyeah.top/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/live2.m3u"
     }
   ]
 }
