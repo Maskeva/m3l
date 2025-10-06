@@ -53,7 +53,7 @@
     }
   ],
   "epg": {
-    "url": "https://api.erw.cc/?ch={channel}&date={date}"
+    "url": "https://api.erw.cc/?ch={name}&date={date}"
   },
   "logo":{
     "url": "https://pic.erw.cc/epglogo/cctv/{name}.png"
