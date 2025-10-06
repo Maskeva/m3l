@@ -53,6 +53,9 @@
     }
   ],
   "epg": {
-    "url": "https://epg.pw/xmltv/epg_CN.xml"
-  }
+    "url": "https://api.erw.cc/?ch={channel}&date={date}"
+  },
+  "logo":{
+    "url": "https://pic.erw.cc/epglogo/cctv/{name}.png"
+  } 
 }

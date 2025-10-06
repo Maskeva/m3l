@@ -1,0 +1,145 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv1.png" group-title="央视",CCTV-1 综合
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000001/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv2.png" group-title="央视",CCTV-2 财经
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002135/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv3.png" group-title="央视",CCTV-3 综艺
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000003/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv4.png" group-title="央视",CCTV-4 中文国际
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226539/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv5.png" group-title="央视",CCTV-5 体育
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226146/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv5plus.png" group-title="央视",CCTV-5+ 体育赛事
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002139/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv6.png" group-title="央视",CCTV-6 电影
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226148/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv7.png" group-title="央视",CCTV-7 国防军事
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002141/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv8.png" group-title="央视",CCTV-8 电视剧
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000008/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv9.png" group-title="央视",CCTV-9 纪录
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226434/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv10.png" group-title="央视",CCTV-10 科教
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226164/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv11.png" group-title="央视",CCTV-11 戏曲
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226541/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv12.png" group-title="央视",CCTV-12 社会与法
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226436/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv13.png" group-title="央视",CCTV-13 新闻
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226438/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv14.png" group-title="央视",CCTV-14 少儿
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002148/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv15.png" group-title="央视",CCTV-15 音乐
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226616/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv16.png" group-title="央视",CCTV-16 奥林匹克
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226413/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/cctv17.png" group-title="央视",CCTV-17 农业农村
+http://[2409:8087:74d9:21::9]:80/270000001128/index.m3u8?cmcc_cid=9900000513
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/beijing.png" group-title="卫视",北京卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226739/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/hunan.png" group-title="卫视",湖南卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226193/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/dongfang.png" group-title="卫视",东方卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221225755/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/sichuan.png" group-title="卫视",四川卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000025/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/tianjin.png" group-title="卫视",天津卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002205/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/anhui.png" group-title="卫视",安徽卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002200/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/shandong.png" group-title="卫视",山东卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000067/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/shenzhen.png" group-title="卫视",深圳卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002140/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/guangdong.png" group-title="卫视",广东卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226180/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/guangxi.png" group-title="卫视",广西卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000034/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/jiangsu.png" group-title="卫视",江苏卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226157/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/jiangxi.png" group-title="卫视",江西卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226207/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/hebei.png" group-title="卫视",河北卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002229/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/henan.png" group-title="卫视",河南卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000027/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/zhejiang.png" group-title="卫视",浙江卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002206/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/hainan.png" group-title="卫视",海南卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000037/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/hubei.png" group-title="卫视",湖北卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002204/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/shan1xi.png" group-title="卫视",山西卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002214/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/dongnan.png" group-title="卫视",东南卫视
+http://[2409:8087:74d9:21::9]:80/270000001128/index.m3u8?cmcc_cid=9900000519
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/guizhou.png" group-title="卫视",贵州卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002231/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/liaoning.png" group-title="卫视",辽宁卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002201/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/chongqing.png" group-title="卫视",重庆卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226551/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/heilongjiang.png" group-title="卫视",黑龙江卫视
+http://[2409:8087:74d9:21::6]:80/270000001322/69900158041111100000002142/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/neimenggu.png" group-title="卫视",内蒙古卫视
+https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/ningxia.png" group-title="卫视",宁夏卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000047/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/shan3xi.png" group-title="卫视",陕西卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226444/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/jilin.png" group-title="卫视",吉林卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000030/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/gansu.png" group-title="卫视",甘肃卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000023/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/yunnan.png" group-title="卫视",云南卫视
+http://[2409:8087:74d9:21::6]/270000001128/9900000035/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/sansha.png" group-title="卫视",三沙卫视
+http://[2409:8087:5e00:24::1e]:6060/000000001000/4600001000000000117/1.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/qinghai.png" group-title="卫视",青海卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000042/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/xinjiang.png" group-title="卫视",新疆卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000045/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/xizang.png" group-title="卫视",西藏卫视
+http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221225698/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/bingtuan.png" group-title="卫视",兵团卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000059/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/yanbian.png" group-title="卫视",延边卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000073/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/anduo.png" group-title="卫视",安多卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000064/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/xiamen.png" group-title="卫视",厦门卫视
+http://[2409:8087:74d9:21::6]:80/270000001128/9900000058/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/shanghaixinwen.png" group-title="上海频道",上海新闻
+http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000005/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000005&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/shanghaidushi.png" group-title="上海频道",上海都市
+http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000012/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000012&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/shanghaiwaiyu.png" group-title="上海频道",上海外语
+http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000001/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000001&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/qicaixiju.png" group-title="上海频道",七彩戏剧
+http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000010/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000010&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/wuxingtiyu.png" group-title="上海频道",五星体育
+http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000007/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000007&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/dongfangyingshi.png" group-title="上海频道",东方影视
+http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000013/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000013&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/dongfangcaijing.png" group-title="上海频道",东方财经
+http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000090/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000090&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/fazhitiandi.png" group-title="上海频道",法治天地
+http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000014/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000014&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/diyicaijing.png" group-title="上海频道",第一财经
+http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000004/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000004&IASHttpSessionId=OTT19019320240419154124000281
+#EXTINF:-1 tvg-logo="https://pic.erw.cc/epglogo/zhejiang/Zhejiang5.png" group-title="浙江频道",浙江新闻
+https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/zhejiangguoji.png" group-title="浙江频道",浙江国际
+https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/zhejiangshaoer.png" group-title="浙江频道",浙江少儿
+https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/zhejiangjiaoke.png" group-title="浙江频道",浙江教科
+https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/zhijiangjilu.png" group-title="浙江频道",之江纪录
+https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/zhejiangminsheng.png" group-title="浙江频道",浙江民生
+https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/zhejiangjingji.png" group-title="浙江频道",浙江经济
+https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/BurningC4/tvg-logo/refs/heads/master/zhejiangqianjiang.png" group-title="浙江频道",浙江钱江
+https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
