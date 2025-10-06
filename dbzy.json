@@ -1,0 +1,28 @@
+{
+  "sites": [
+    {
+      "key": "采集资源",
+      "name": "采集资源", 
+      "type": 3,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/josn/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析接口",
+      "type": 1,
+      "url": "https://www.dbjiexi.com:966/jx/?url="
+    }
+  ],
+  "lives": [
+    {
+      "name": "直播源",
+      "type": 1, 
+      "url": "https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/live.txt"
+    }
+  ],
+  "epg": "https://epg.pw/xmltv/epg_CN.xml"
+}
