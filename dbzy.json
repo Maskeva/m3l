@@ -4,7 +4,7 @@
       "key": "apex",
       "name": "豆瓣资源",
       "type": 3,
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/josn/",
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
