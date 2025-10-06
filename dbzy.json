@@ -49,8 +49,7 @@
     {
       "name": "电视直播",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/live2.m3u",
-      "epg": "https://api.erw.cc/?ch={channel}&date={date}"
+      "url": "https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/live2.m3u"
     }
   ]
 }
