@@ -5,9 +5,9 @@
       "name": "超级看",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
       "categories": [
         "国产剧",
         "欧美剧",
@@ -15,7 +15,7 @@
         "日本剧"
       ]
     }
-     ],
+  ],
   "parses": [
     {
       "name": "暴风解析",
@@ -24,7 +24,14 @@
     }
   ],
   "lives": [
-    {"name": "测试","type": 0,"url": "https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/live.txt","playerType": 1,"ua": "okhttp/3.15","epg": "https://epg.mxdyeah.top/api/diyp/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"
+    {
+      "name": "测试",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/live.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15",
+      "epg": "https://epg.mxdyeah.top/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ]
 }
