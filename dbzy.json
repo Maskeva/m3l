@@ -49,13 +49,7 @@
     {
       "name": "电视直播",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/live.txt"
+      "url": "https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/live2.txt"
     }
-  ],
-  "epg": {
-    "url": "https://api.erw.cc/?ch={tvg-name}&date={date}"
-  },
-  "logo":{
-    "url": "https://pic.erw.cc/epglogo/cctv/{name}.png"
-  } 
+  ]
 }
