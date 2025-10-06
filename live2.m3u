@@ -83,8 +83,6 @@ http://[2409:8087:74d9:21::6]:80/270000001128/9900000030/index.m3u8
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000023/index.m3u8
 #EXTINF:-1 tvg-id="100" tvg-name="河南卫视" tvg-logo="https://pic.erw.cc/epglogo/weishi/Henan.png" group-title="卫视",河南卫视
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000027/index.m3u8
-#EXTINF:-1 tvg-id="101" tvg-name="内蒙古卫视" tvg-logo="https://pic.erw.cc/epglogo/weishi/Neimeng.png" group-title="卫视",内蒙古卫视
-https://livestream-bt.nmtv.cn/nmtv/2314general.m3u8?txSecret=dc348a27bd36fe1bd63562af5e7269ea&txTime=771EF880
 #EXTINF:-1 tvg-id="102" tvg-name="陕西卫视" tvg-logo="https://pic.erw.cc/epglogo/weishi/Shanxi.png" group-title="卫视",陕西卫视
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226444/index.m3u8
 #EXTINF:-1 tvg-id="103" tvg-name="广西卫视" tvg-logo="https://pic.erw.cc/epglogo/weishi/Guangxi.png" group-title="卫视",广西卫视
@@ -112,25 +110,11 @@ http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226180/index.
 #EXTINF:-1 tvg-id="261" tvg-name="农林卫视" tvg-logo="https://pic.erw.cc/epglogo/shanxi/Nonglin.png" group-title="卫视",农林卫视
 http://[2409:8087:74d9:21::6]:80/000000001000PLTV/88888888/224/3221226444/index.m3u8
 #EXTINF:-1 tvg-id="289" tvg-name="三沙卫视" tvg-logo="https://pic.erw.cc/epglogo/hainan/Sansha.png" group-title="卫视",三沙卫视
-http://[2409:8087:5e00:24::1e]:6060/000000001000/4600001000000000117/1.m3u8
+http://nn.7x9d.cn/地方台8563/海南.php?id=ssws
 #EXTINF:-1 tvg-id="554" tvg-name="安多卫视" tvg-logo="https://pic.erw.cc/epglogo/weishi/Anduo.png" group-title="卫视",安多卫视
 http://[2409:8087:74d9:21::6]:80/270000001128/9900000064/index.m3u8
-#EXTINF:-1 tvg-id="170" tvg-name="五星体育" tvg-logo="https://pic.erw.cc/epglogo/shanghai/Shanghai5.png" group-title="上海",五星体育
-http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000007/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000007&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1 tvg-id="174" tvg-name="东方财经" tvg-logo="https://pic.erw.cc/epglogo/shuzi/dfcj.png" group-title="上海",东方财经
-http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000090/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000090&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1 tvg-id="187" tvg-name="法治天地" tvg-logo="https://pic.erw.cc/epglogo/shuzi/fztd.png" group-title="上海",法治天地
-http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000014/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000014&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1 tvg-id="195" tvg-name="东方影视" tvg-logo="https://pic.erw.cc/epglogo/shanghai/Shanghai3.png" group-title="上海",东方影视
-http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000013/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000013&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1 tvg-id="198" tvg-name="第一财经" tvg-logo="https://pic.erw.cc/epglogo/shuzi/dycj.png" group-title="上海",第一财经
-http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000004/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000004&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1 tvg-id="199" tvg-name="上海新闻综合" tvg-logo="https://pic.erw.cc/epglogo/shanghai/Shanghai1.png" group-title="上海",上海新闻综合
-http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000005/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000005&IASHttpSessionId=OTT19019320240419154124000281
-#EXTINF:-1 tvg-id="209" tvg-name="哈哈炫动" tvg-logo="https://pic.erw.cc/epglogo/shuzi/hhxd.png" group-title="上海",哈哈炫动
-http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000010/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000010&IASHttpSessionId=OTT19019320240419154124000281
 #EXTINF:-1 tvg-id="263" tvg-name="上海都市" tvg-logo="https://pic.erw.cc/epglogo/shanghai/Shanghai2.png" group-title="上海",上海都市
-http://[2409:8087:5e01:24::16]:6610/000000001000/2000000002000000012/index.m3u8?stbId=3&livemode=1&HlsProfileId=&channel-id=hnbblive&Contentid=2000000002000000012&IASHttpSessionId=OTT19019320240419154124000281
+https://zby.130519.xyz/PLTV/11/224/3221225749/index.m3u8
 #EXTINF:-1 tvg-id="200" tvg-name="钱江都市" tvg-logo="https://pic.erw.cc/epglogo/zhejiang/Zhejiang1.png" group-title="浙江",钱江都市
 https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
 #EXTINF:-1 tvg-id="201" tvg-name="浙江经济生活" tvg-logo="https://pic.erw.cc/epglogo/zhejiang/Zhejiang2.png" group-title="浙江",浙江经济生活
