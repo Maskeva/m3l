@@ -14,6 +14,7 @@
 
 
 | **豆瓣资源** | `https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/dbzy.json` | 有字幕广告 |
+
 | **暴风资源** | `https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/bfzy.json` | 无广告 |
 
 
