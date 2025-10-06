@@ -1,34 +1,59 @@
 {
   "sites": [
     {
-      "key": "采集资源",
-      "name": "采集资源",
+      "key": "apex",
+      "name": "豆瓣资源",
       "type": 3,
       "api": "https://caiji.dbzy5.com/api.php/provide/vod/at/josn/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "categories": [
+        "纪录片",
+        "动作片",
+        "爱情片",
+        "喜剧片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "动漫电影",
+        "惊悚片",
         "国产剧",
+        "香港剧",
         "欧美剧",
-        "韩国剧",
-        "日本剧"
+        "韩剧",
+        "泰国剧",
+        "日本剧",
+        "台湾剧",
+        "海外剧",
+        "大陆综艺",
+        "日韩综艺",
+        "港台综艺",
+        "欧美综艺",
+        "演唱会",
+        "国产动漫",
+        "日本动漫",
+        "欧美动漫",
+        "海外动漫"
       ]
     }
   ],
   "parses": [
     {
-      "name": "解析接口",
+      "name": "豆瓣解析",
       "type": 1,
       "url": "https://www.dbjiexi.com:966/jx/?url="
     }
   ],
   "lives": [
     {
-      "name": "直播源",
+      "name": "电视直播",
       "type": 0,
       "url": "https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/live.txt"
     }
   ],
-  "epg": "https://epg.pw/xmltv/epg_CN.xml"
+  "epg": {
+    "url": "https://epg.pw/xmltv/epg_CN.xml"
+  }
 }
