@@ -3,7 +3,7 @@
     {
       "key": "apex",
       "name": "豆瓣资源",
-      "type": 3,
+      "type": 1,
       "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/josn/",
       "searchable": 1,
       "quickSearch": 1,
@@ -42,7 +42,7 @@
   "parses": [
     {
       "name": "豆瓣解析",
-      "type": 1,
+      "type": 0,
       "url": "https://www.dbjiexi.com:966/jx/?url="
     }
   ],
