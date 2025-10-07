@@ -7,7 +7,6 @@
       "api": "https://iqiyizyapi.com/api.php/provide/vod",
       "searchable": 1,
       "quickSearch": 1,
-      "parse": "iqiyi解析",
       "categories": [
         "喜剧片",
         "国产剧",
@@ -24,7 +23,6 @@
       "api": "https://mozhuazy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "parse": "魔爪解析",
       "categories": [
         "喜剧片",
         "国产剧",
