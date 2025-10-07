@@ -1,0 +1,56 @@
+{
+  "sites": [
+    {
+      "key": "apex",
+      "name": "iqiyi资源",
+      "type": 1,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "parse": "iqiyi解析",
+      "categories": [
+        "喜剧片",
+        "国产剧",
+        "大陆综艺",
+        "科幻片",
+        "国产动漫",
+        "动漫电影"
+      ]
+    },
+    {
+      "key": "apex",
+      "name": "魔爪资源",
+      "type": 1,
+      "api": "https://mozhuazy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "parse": "魔爪解析",
+      "categories": [
+        "喜剧片",
+        "国产剧",
+        "大陆综艺",
+        "科幻片",
+        "国产动漫"
+      ]
+    }
+  ],
+  "parses": [
+    {
+      "name": "iqiyi解析",
+      "type": 0,
+      "url": "https://www.iqiyizyjx.com/?url="
+    },
+    {
+      "name": "魔爪解析",
+      "type": 0,
+      "url": "https://mzm3u8jx.com/aliplayer.html?url="
+    }
+  ],
+  "lives": [
+    {
+      "name": "电视直播",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/live2.m3u"
+    }
+  ]
+}
