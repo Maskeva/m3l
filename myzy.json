@@ -1,0 +1,60 @@
+{
+  "sites": [
+    {
+      "key": "apex",
+      "name": "猫眼资源",
+      "type": 1,
+      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "class": [
+        
+        // --- 一级大类 (type_pid: 0) ---
+        {"type_id": 1, "type_name": "电影", "type_pid": 0},
+        {"type_id": 2, "type_name": "连续剧", "type_pid": 0},
+        {"type_id": 3, "type_name": "综艺", "type_pid": 0},
+        {"type_id": 4, "type_name": "动漫", "type_pid": 0},
+        
+        // --- 电影子类 (type_pid: 1) ---
+        {"type_id": 5, "type_name": "动作片", "type_pid": 1},
+        {"type_id": 6, "type_name": "喜剧片", "type_pid": 1},
+        {"type_id": 7, "type_name": "科幻片", "type_pid": 1},
+        {"type_id": 8, "type_name": "恐怖片", "type_pid": 1},
+        {"type_id": 9, "type_name": "剧情片", "type_pid": 1},
+        {"type_id": 10, "type_name": "悬疑片", "type_pid": 1},
+        {"type_id": 11, "type_name": "纪录片", "type_pid": 1},
+        {"type_id": 12, "type_name": "动画片", "type_pid": 1},
+
+        // --- 连续剧子类 (type_pid: 2) ---
+        {"type_id": 13, "type_name": "国产剧", "type_pid": 2},
+        {"type_id": 14, "type_name": "海外剧", "type_pid": 2},
+
+        // --- 综艺子类 (type_pid: 3) ---
+        {"type_id": 15, "type_name": "大陆综艺", "type_pid": 3},
+        {"type_id": 16, "type_name": "港台综艺", "type_pid": 3},
+        {"type_id": 17, "type_name": "日韩综艺", "type_pid": 3},
+        {"type_id": 18, "type_name": "欧美综艺", "type_pid": 3},
+
+        // --- 动漫子类 (type_pid: 4) ---
+        {"type_id": 19, "type_name": "国产动漫", "type_pid": 4},
+        {"type_id": 20, "type_name": "欧美动漫", "type_pid": 4},
+        {"type_id": 21, "type_name": "日韩动漫", "type_pid": 4}
+    ]
+    }
+  ],
+  "parses": [
+    {
+      "name": "猫眼解析",
+      "type": 0,
+      "url": "https://jx.maoyanjx.top/player/?url="
+    }
+  ],
+  "lives": [
+    {
+      "name": "电视直播",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/live2.m3u"
+    }
+  ]
+}
