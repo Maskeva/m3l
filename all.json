@@ -36,7 +36,7 @@
       "key": "god",
       "name": "dytt资源",
       "type": 1,
-      "api": "hhttp://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "categories": [
