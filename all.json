@@ -2,25 +2,25 @@
   "sites": [
     {
       "key": "apex",
-      "name": "iqiyi资源",
+      "name": "暴风资源",
       "type": 1,
-      "api": "https://iqiyizyapi.com/api.php/provide/vod",
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "categories": [
-        "喜剧片",
         "国产剧",
-        "大陆综艺",
+        "动作片",
+        "喜剧片",
         "科幻片",
-        "国产动漫",
-        "动漫电影"
+        "动画片",
+        "大陆综艺"
       ]
     },
     {
-      "key": "apex",
-      "name": "魔爪资源",
+      "key": "dog",
+      "name": "优质资源",
       "type": 1,
-      "api": "https://mozhuazy.com/api.php/provide/vod/?ac=list",
+      "api": "https://api.yzzy-api.com/inc/apijson.php",
       "searchable": 1,
       "quickSearch": 1,
       "categories": [
@@ -34,14 +34,14 @@
   ],
   "parses": [
     {
-      "name": "iqiyi解析",
+      "name": "暴风解析",
       "type": 0,
-      "url": "https://www.iqiyizyjx.com/?url="
+      "url": "https://jxbfbf.com/?url="
     },
     {
-      "name": "魔爪解析",
+      "name": "优质解析",
       "type": 0,
-      "url": "https://mzm3u8jx.com/aliplayer.html?url="
+      "url": "https://vip.zykbf.com/?url="
     }
   ],
   "lives": [
