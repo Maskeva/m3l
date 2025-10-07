@@ -7,7 +7,6 @@
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
       "categories": [
         "国产剧",
         "动作片",
