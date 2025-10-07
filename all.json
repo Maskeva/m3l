@@ -1,6 +1,22 @@
 {
   "sites": [
     {
+      "key": "dog",
+      "name": "优质资源",
+      "type": 1,
+      "api": "https://api.yzzy-api.com/inc/apijson.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "国产剧",
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "动画片",
+        "大陆综艺"
+      ]
+    },
+    {
       "key": "apex",
       "name": "暴风资源",
       "type": 1,
@@ -17,10 +33,10 @@
       ]
     },
     {
-      "key": "dog",
-      "name": "优质资源",
+      "key": "god",
+      "name": "dytt资源",
       "type": 1,
-      "api": "https://api.yzzy-api.com/inc/apijson.php",
+      "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "categories": [
@@ -35,14 +51,19 @@
   ],
   "parses": [
     {
+      "name": "优质解析",
+      "type": 0,
+      "url": "https://vip.zykbf.com/?url="
+    },
+    {
       "name": "暴风解析",
       "type": 0,
       "url": "https://jxbfbf.com/?url="
     },
     {
-      "name": "优质解析",
+      "name": "dytt解析",
       "type": 0,
-      "url": "https://vip.zykbf.com/?url="
+      "url": "https://vip.dyttzyplay.com/?url="
     }
   ],
   "lives": [
