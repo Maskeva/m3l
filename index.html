@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TXT转M3U格式转换器</title>
+    <style>
+        :root {
+            --primary-color: #4a6fa5;
+            --secondary-color: #6b8cbc;
+            --light-color: #f5f7fa;
+            --dark-color: #2c3e50;
+            --success-color: #2ecc71;
+            --warning-color: #f39c12;
+            --danger-color: #e74c3c;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            background-color: var(--light-color);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin-bottom: 10px;
+            font-size: 2.2rem;
+        }
+        
+        .description {
+            font-size: 1rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .input-section, .output-section {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .section-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .section-title h2 {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+        }
+        
+        .textarea-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            min-height: 450px;
+        }
+        
+        textarea {
+            flex: 1;
+            width: 100%;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            resize: vertical;
+            transition: border-color 0.3s;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+        
+        .buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--secondary-color);
+        }
+        
+        .btn-success {
+            background-color: var(--success-color);
+            color: white;
+        }
+        
+        .btn-success:hover {
+            background-color: #27ae60;
+        }
+        
+        .btn-warning {
+            background-color: var(--warning-color);
+            color: white;
+        }
+        
+        .btn-warning:hover {
+            background-color: #e67e22;
+        }
+        
+        .btn-danger {
+            background-color: var(--danger-color);
+            color: white;
+        }
+        
+        .btn-danger:hover {
+            background-color: #c0392b;
+        }
+        
+        .settings {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        .settings h3 {
+            margin-bottom: 15px;
+            color: var(--primary-color);
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+        
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+        }
+        
+        .counter {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 0.8rem;
+        }
+        
+        .notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 20px;
+            background-color: var(--success-color);
+            color: white;
+            border-radius: 5px;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 1000;
+        }
+        
+        .notification.show {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TXT转M3U格式转换器</h1>
+            <p class="description">将您的TXT频道列表转换为标准的M3U播放列表格式，支持自定义EPG和分组功能</p>
+        </header>
+        
+        <div class="main-content">
+            <div class="input-section">
+                <div class="section-title">
+                    <h2>输入TXT格式</h2>
+                    <span class="counter" id="input-counter">0 行</span>
+                </div>
+                <div class="textarea-container">
+                    <textarea id="input-text" placeholder="粘贴您的TXT格式频道列表"></textarea>
+                </div>
+                <div class="buttons">
+                    <button class="btn-primary" id="convert-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm2.354 5.146a.5.5 0 0 1-.708.708L8.5 6.707V10.5a.5.5 0 0 1-1 0V6.707L6.354 7.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2z"/>
+                        </svg>
+                        转换为M3U
+                    </button>
+                    <button class="btn-warning" id="clear-input-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+                            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+                        </svg>
+                        清空输入
+                    </button>
+                </div>
+            </div>
+            
+            <div class="output-section">
+                <div class="section-title">
+                    <h2>输出M3U格式</h2>
+                    <span class="counter" id="output-counter">0 频道</span>
+                </div>
+                <div class="textarea-container">
+                    <textarea id="output-text" readonly placeholder="转换后的M3U格式将显示在这里"></textarea>
+                </div>
+                <div class="buttons">
+                    <button class="btn-success" id="copy-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"/>
+                            <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"/>
+                        </svg>
+                        复制到剪贴板
+                    </button>
+                    <button class="btn-primary" id="download-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                            <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                            <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                        </svg>
+                        下载M3U文件
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="settings">
+            <h3>自定义设置</h3>
+            <div class="form-group">
+                <label for="epg-url">自定义EPG地址 (可选)</label>
+                <input type="text" id="epg-url" placeholder='http://e.erw.cc/e.xml.gz' value="https://raw.githubusercontent.com/kuke31/xmlgz/main/e.xml.gz">
+            </div>
+        </div>
+        
+        <footer>
+            <p>TXT转M3U格式转换器 &copy; 2023 | 静态HTML工具，无需服务器支持</p>
+        </footer>
+    </div>
+    
+    <div class="notification" id="notification">操作成功！</div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const inputText = document.getElementById('input-text');
+            const outputText = document.getElementById('output-text');
+            const convertBtn = document.getElementById('convert-btn');
+            const copyBtn = document.getElementById('copy-btn');
+            const downloadBtn = document.getElementById('download-btn');
+            const clearInputBtn = document.getElementById('clear-input-btn');
+            const epgUrlInput = document.getElementById('epg-url');
+            const inputCounter = document.getElementById('input-counter');
+            const outputCounter = document.getElementById('output-counter');
+            const notification = document.getElementById('notification');
+            
+            // 更新行数计数器
+            function updateInputCounter() {
+                const lines = inputText.value.split('\n').filter(line => line.trim() !== '');
+                inputCounter.textContent = `${lines.length} 行`;
+            }
+            
+            // 更新频道计数器
+            function updateOutputCounter() {
+                const lines = outputText.value.split('\n');
+                const channelCount = lines.filter(line => line.startsWith('#EXTINF:')).length;
+                outputCounter.textContent = `${channelCount} 频道`;
+            }
+            
+            // 显示通知
+            function showNotification(message, type = 'success') {
+                notification.textContent = message;
+                notification.className = 'notification show';
+                if (type === 'error') {
+                    notification.style.backgroundColor = 'var(--danger-color)';
+                } else {
+                    notification.style.backgroundColor = 'var(--success-color)';
+                }
+                
+                setTimeout(() => {
+                    notification.classList.remove('show');
+                }, 3000);
+            }
+            
+            // 转换功能
+            convertBtn.addEventListener('click', function() {
+                const input = inputText.value.trim();
+                if (!input) {
+                    showNotification('请输入要转换的内容', 'error');
+                    return;
+                }
+                
+                const lines = input.split('\n');
+                let output = '';
+                let currentGroup = '';
+                let channelId = 1;
+                
+                // 添加M3U头部
+                const epgUrl = epgUrlInput.value.trim();
+                
+                if (epgUrl) {
+                    output += `#EXTM3U x-tvg-url="${epgUrl}" catchup="append" catchup-days="7" catchup-source="?playseek={utc:YmdHMS}-{utcend:YmdHMS}"\n`;
+                } else {
+                    output += '#EXTM3U\n';
+                }
+                
+                // 处理每一行
+                for (let line of lines) {
+                    line = line.trim();
+                    if (!line) continue;
+                    
+                    // 检查是否是分组行
+                    if (line.endsWith(',#genre#')) {
+                        currentGroup = line.replace(',#genre#', '');
+                        continue;
+                    }
+                    
+                    // 处理频道行
+                    const parts = line.split(',');
+                    if (parts.length >= 2) {
+                        const channelName = parts[0];
+                        const channelUrl = parts.slice(1).join(','); // 处理URL中可能包含逗号的情况
+                        
+                        output += `#EXTINF:-1 tvg-id="${channelId}" tvg-name="${channelName}" group-title="${currentGroup}",${channelName}\n`;
+                        output += `${channelUrl}\n`;
+                        
+                        channelId++;
+                    }
+                }
+                
+                outputText.value = output;
+                updateOutputCounter();
+                showNotification('转换成功！');
+            });
+            
+            // 复制功能
+            copyBtn.addEventListener('click', function() {
+                if (!outputText.value) {
+                    showNotification('没有内容可复制', 'error');
+                    return;
+                }
+                
+                outputText.select();
+                document.execCommand('copy');
+                showNotification('已复制到剪贴板！');
+            });
+            
+            // 下载功能
+            downloadBtn.addEventListener('click', function() {
+                if (!outputText.value) {
+                    showNotification('没有内容可下载', 'error');
+                    return;
+                }
+                
+                const blob = new Blob([outputText.value], { type: 'application/x-mpegurl' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'live.m3u';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+                
+                showNotification('文件下载成功！');
+            });
+            
+            // 清空输入
+            clearInputBtn.addEventListener('click', function() {
+                inputText.value = '';
+                updateInputCounter();
+                showNotification('输入已清空');
+            });
+            
+            // 初始化计数器
+            inputText.addEventListener('input', updateInputCounter);
+            updateInputCounter();
+            updateOutputCounter();
+        });
+    </script>
+</body>
+</html>
