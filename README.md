@@ -6,7 +6,9 @@
 
 您只需要复制下方的链接，粘贴到您的 **TVBox** 或其他兼容软件的配置地址中即可。
 
-```text https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/all.json ```
+```text 
+https://raw.githubusercontent.com/Maskeva/m3uList/refs/heads/master/all.json
+```
 
 <br>
 
