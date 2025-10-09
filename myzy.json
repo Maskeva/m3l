@@ -1,8 +1,8 @@
 {
   "sites": [
     {
-      "key": "dyttzy",
-      "name": "电影ty",
+      "key": "god",
+      "name": "dytt资源",
       "type": 0,
       "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
       "searchable": 1,
@@ -10,7 +10,16 @@
       "header": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36",
         "Connection": "close"
-      }
+      },
+      "ext": "http://caiji.dyttzyapi.com",
+      "categories": [
+        "国产剧",
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "欧美剧",
+        "大陆综艺"
+      ]
     }
   ],
   "lives": [],
