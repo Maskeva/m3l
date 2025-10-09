@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "god",
-      "name": "dytt资源",
+      "name": "dyt3资源",
       "type": 0,
       "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
       "searchable": 1,
