@@ -1,25 +1,20 @@
 {
+  "spider": "https://ghproxy.com/https://raw.githubusercontent.com/hjdhnx/dr_py/main/js/drpy.jar;md5;f6da9ab71e4a104eb3f9f7c9ab162b22",
   "sites": [
     {
-      "key": "god",
-      "name": "dyt3资源",
-      "type": 0,
-      "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
+      "key": "dyttzy",
+      "name": "电影天堂",
+      "type": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
       "header": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36",
         "Connection": "close"
       },
-      "ext": "http://caiji.dyttzyapi.com",
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "欧美剧",
-        "大陆综艺"
-      ]
+      "ext": "http://caiji.dyttzyapi.com"
     }
   ],
   "lives": [],
@@ -27,7 +22,7 @@
     {
       "name": "极速解析",
       "type": 0,
-      "url": "https://vip.dyttzyplay.com/?url=",
+      "url": "https://jx.xmflv.com/?url=",
       "ext": {
         "flag": [
           "all"
