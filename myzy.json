@@ -3,7 +3,7 @@
   "sites": [
     {
       "key": "dyttzy",
-      "name": "电影天堂",
+      "name": "25548",
       "type": 1,
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
