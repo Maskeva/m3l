@@ -1,35 +1,61 @@
 {
   "sites": [
     {
-      "key": "apex",
-      "name": "猫眼资源",
+      "key": "dyttzy",
+      "name": "电影天堂",
       "type": 1,
-      "api": "https://api.maoyanapi.top/api.php/provide/vod",
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
-      "categories": [
-        "国产剧",
-        "大陆综艺",
-        "喜剧片",
-        "科幻片",
-        "剧情片",
-        "纪录片",
-	    "国产动漫"
-      ]
+      "filterable": 1,
+      "changeable": 1,
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36",
+        "Connection": "close"
+      },
+      "ext": "http://caiji.dyttzyapi.com"
+    },
+    {
+      "key": "bfzy",
+      "name": "暴风资源",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36",
+        "Connection": "close"
+      },
+      "ext": ""
     }
   ],
+  "lives": [],
   "parses": [
     {
-      "name": "猫眼解析",
+      "name": "极速解析",
       "type": 0,
-      "url": "https://jx.maoyanjx.top/player/?url="
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "flag": [
+          "all"
+        ]
+      }
+    },
+    {
+      "name": "Json并发",
+      "type": 2,
+      "url": "Parallel"
     }
   ],
-  "lives": [
-    {
-      "name": "电视直播",
-      "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Maskeva/m3l/refs/heads/master/live2.m3u"
-    }
+  "flags": [
+    "youku",
+    "qq",
+    "iqiyi",
+    "qiyi",
+    "letv",
+    "sohu",
+    "mgtv"
   ]
 }
