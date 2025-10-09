@@ -2,8 +2,8 @@
   "sites": [
     {
       "key": "dyttzy",
-      "name": "电影天堂",
-      "type": 0,
+      "name": "电影ty",
+      "type": 1,
       "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
