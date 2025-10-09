@@ -2,7 +2,7 @@
   "sites": [
     {
       "key": "dyttzy",
-      "name": "25548",
+      "name": "333333",
       "type": 1,
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
