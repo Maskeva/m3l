@@ -22,15 +22,15 @@
     {
       "key": "god",
       "name": "dytt资源",
-      "type": 0,
-      "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
+      "type": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "header": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36",
         "Connection": "close"
       },
-      "ext": "http://caiji.dyttzyapi.com",
+      "ext": "",
       "categories": [
         "国产剧",
         "动作片",

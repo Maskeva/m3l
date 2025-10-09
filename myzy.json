@@ -17,23 +17,9 @@
   "lives": [],
   "parses": [
     {
-      "name": "极速解析",
+      "name": "dytt解析",
       "type": 0,
-      "url": "https://vip.dyttzyplay.com/?url=",
-      "ext": {
-        "flag": [
-          "all"
-        ]
-      }
+      "url": "https://vip.dyttzyplay.com/?url="
     }
-  ],
-  "flags": [
-    "youku",
-    "qq",
-    "iqiyi",
-    "qiyi",
-    "letv",
-    "sohu",
-    "mgtv"
   ]
 }
