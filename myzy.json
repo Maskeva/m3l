@@ -2,9 +2,9 @@
   "sites": [
     {
       "key": "dyttzy",
-      "name": "333333",
-      "type": 1,
-      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
+      "name": "11111111",
+      "type": 0,
+      "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/xml/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
