@@ -21,7 +21,7 @@
     },
     {
       "key": "god",
-      "name": "dytt资源",
+      "name": "好资源",
       "type": 1,
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
@@ -48,7 +48,7 @@
       "url": "https://jxbfbf.com/?url="
     },
     {
-      "name": "dytt解析",
+      "name": "好解析",
       "type": 0,
       "url": "https://vip.dyttzyplay.com/?url="
     }
