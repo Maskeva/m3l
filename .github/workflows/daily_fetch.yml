@@ -22,7 +22,7 @@ jobs:
       - name: Fetch cc.xml and save as epg/g.xml
         # 使用 curl 命令抓取文件并保存到 epg/g.xml 路径
         run: |
-          curl -o epg/g.xml https://epg.51zmt.top:8001/cc.xml
+          curl -k -o epg/g.xml https://epg.51zmt.top:8001/cc.xml
 
       - name: Commit and push if file changed
         # 使用 stefanzweifel/git-auto-commit-action 自动提交更改
