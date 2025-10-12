@@ -7,6 +7,7 @@
       "api": "https://bfzyapi.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
+      "filterable": 1,
       "header": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36"
       },
@@ -26,6 +27,7 @@
       "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
+      "filterable": 1,
       "header": {
         "User-Agent": "Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36",
         "Connection": "close"
@@ -36,7 +38,7 @@
         "动作片",
         "喜剧片",
         "科幻片",
-        "欧美剧",
+        "国产片",
         "大陆综艺"
       ]
     }
