@@ -26,7 +26,7 @@ jobs:
       - name: Commit and push if file changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_files: epg/g.xml
+          file_pattern: epg/g.xml
           commit_message: "Update epg/g.xml (Daily EPG)"
           commit_user_name: 'github-actions[bot]'
           commit_user_email: 'github-actions[bot]@users.noreply.github.com'
