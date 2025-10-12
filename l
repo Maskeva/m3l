@@ -1,0 +1,57 @@
+{
+  "sites": [
+    {
+      "key": "apex",
+      "name": "暴风资源",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36"
+      },
+      "categories": [
+        "国产剧",
+        "大陆综艺"
+      ]
+    },
+    {
+      "key": "god",
+      "name": "好资源",
+      "type": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "header": {
+        "User-Agent": "Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36",
+        "Connection": "close"
+      },
+      "ext": "",
+      "categories": [
+        "国产剧",
+        "大陆综艺"
+      ]
+    }
+  ],
+  "parses": [
+    {
+      "name": "暴风解析",
+      "type": 0,
+      "url": "https://jxbfbf.com/?url="
+    },
+    {
+      "name": "好解析",
+      "type": 0,
+      "url": "https://vip.dyttzyplay.com/?url="
+    }
+  ],
+  "lives": [
+    {
+      "name": "电视直播",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Maskeva/m3l/refs/heads/master/K"
+    }
+  ]
+}
