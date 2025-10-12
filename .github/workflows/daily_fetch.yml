@@ -21,9 +21,7 @@ jobs:
         # 核心修改：使用 wget 替代 curl
         run: |
           # --no-check-certificate 忽略证书错误
-          # --tries=5 失败后重试 5 次
-          # -O 指定输出文件路径
-          wget --no-check-certificate --tries=5 -O epg/g.xml https://epg.51zmt.top:8001/cc.xml
+          wget --no-check-certificate -O epg/g.xml https://epg.51zmt.top:8001/cc.xml
 
       - name: Commit and push if file changed
         uses: stefanzweifel/git-auto-commit-action@v5
