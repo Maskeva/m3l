@@ -29,10 +29,9 @@
         "User-Agent": "Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36",
         "Connection": "close"
       },
-      "ext": "http://caiji.dyttzyapi.com",
+      "ext": "",
       "categories": [
         "国产剧",
-        "电影片",
         "大陆综艺"
       ]
     }
