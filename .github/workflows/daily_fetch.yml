@@ -1,0 +1,37 @@
+name: Daily Fetch EPG
+
+on:
+  schedule:
+    # 每天 UTC 时间 00:00 运行，即北京时间早上 8:00
+    - cron: '0 0 * * *' 
+  # 允许通过 GitHub 界面手动触发
+  workflow_dispatch:
+
+jobs:
+  fetch_and_commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        # 使用 actions/checkout@v4 检出代码
+        uses: actions/checkout@v4
+
+      - name: Create epg directory
+        # 确保 epg 文件夹存在
+        run: mkdir -p epg
+
+      - name: Fetch cc.xml and save as epg/g.xml
+        # 使用 curl 命令抓取文件并保存到 epg/g.xml 路径
+        run: |
+          curl -o epg/g.xml https://epg.51zmt.top:8001/cc.xml
+
+      - name: Commit and push if file changed
+        # 使用 stefanzweifel/git-auto-commit-action 自动提交更改
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # 提交 epg/g.xml 文件
+          commit_files: epg/g.xml
+          # 提交信息
+          commit_message: "Update epg/g.xml (Daily EPG)"
+          # 使用 GitHub 机器人账号进行提交
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'
