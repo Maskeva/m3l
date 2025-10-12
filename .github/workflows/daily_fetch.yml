@@ -18,6 +18,9 @@ jobs:
       - name: Fetch cc.xml and save as epg/g.xml (使用 wget)
         run: |
           wget --no-check-certificate -O epg/g.xml https://epg.51zmt.top:8001/cc.xml
+      - name: Modify first line of epg/g.xml
+        run: |
+          sed -i '1{i<tv generator_info_name="http://8.8.8.8:8888" generator_info_url="Google">; d}' epg/g.xml    
 
       - name: Commit and push if file changed
         uses: stefanzweifel/git-auto-commit-action@v5
