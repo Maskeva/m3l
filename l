@@ -39,7 +39,7 @@
     {
       "name": "暴风解析",
       "type": 0,
-      "url": "https://jxbfbf.com/?url="
+      "url": "https://vip.vipuuvip.com/?url="
     },
     {
       "name": "好解析",
