@@ -4,13 +4,10 @@
       "key": "apex",
       "name": "红牛资源",
       "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn/",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "header": {
-        "User-Agent": "Mozilla/5.0 (Linux; Android 11) AppleWebKit/537.36"
-      },
       "categories": [
         "国产剧",
         "综艺"
@@ -55,3 +52,4 @@
     }
   ]
 }
+
