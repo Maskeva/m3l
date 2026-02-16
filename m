@@ -4,7 +4,7 @@
       "key": "apex",
       "name": "红牛资源",
       "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/josn/?ac=list",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -52,4 +52,5 @@
     }
   ]
 }
+
 
