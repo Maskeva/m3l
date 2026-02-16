@@ -2,14 +2,14 @@
   "sites": [
     {
       "key": "apex",
-      "name": "对资源",
+      "name": "新浪资源",
       "type": 1,
       "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/josn",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "categories": [
-        "国产剧",
+        "大陆剧",
         "综艺"
       ]
     },
@@ -34,9 +34,9 @@
   ],
   "parses": [
     {
-      "name": "红牛解析",
+      "name": "新浪解析",
       "type": 0,
-      "url": "https://www.hnjiexi.com/m3u8/?url="
+      "url": "https://www.xinlangjiexi.com/m3u8/?url="
     },
     {
       "name": "好解析",
@@ -52,6 +52,7 @@
     }
   ]
 }
+
 
 
 
