@@ -4,12 +4,14 @@
       "key": "apex",
       "name": "红牛资源",
       "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/from/hnm3u8/",
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
+      "changeable": 1,
       "filterable": 1,
       "categories": [
         "国产剧",
+        "科幻片",
         "综艺"
       ]
     },
@@ -52,5 +54,6 @@
     }
   ]
 }
+
 
 
