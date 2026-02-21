@@ -8,11 +8,11 @@
 
 原始链接
 ```text 
-https://raw.githubusercontent.com/Maskeva/m3l/refs/heads/master/all.json
+<!-- https://raw.githubusercontent.com/Maskeva/m3l/refs/heads/master/all.json -->
 ```
 加速链接
 ```text 
-https://gh-proxy.com/https://raw.githubusercontent.com/Maskeva/m3l/refs/heads/master/all.json
+<!-- https://gh-proxy.com/https://raw.githubusercontent.com/Maskeva/m3l/refs/heads/master/all.json -->
 ```
 <br>
 
