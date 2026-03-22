@@ -53,22 +53,6 @@
             "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312h4934183ig2l05g9"
         },
         {
-            "key": "巧技五",
-            "name": "巧技五┃仅搜索",
-            "type": 3,
-            "api": "csp_qiao2",
-            "playerType": 2,
-            "ext": "7lj763gg402i7942412h849jg1558j9jl8g19213il86316k465719lik158491h179312hk935886ig2l05g9"
-        },
-        {
-            "key": "yunyun",
-            "name": "云云┃无搜索",
-            "type": 3,
-            "api": "csp_Nox",
-            "playerType": 2,
-            "ext": "7lj763gg0939795i0678i481k40hi2i6g6k69h0j9kj36578001507k8h9555801158258h98i1l879j2h18llj9h6hk19l7k06i7j5jk5g6i2l328ig37k060g30l0ihgh5jgkll76732358i4h3h5h93k35j7477l3g02k65i2khl6g0gj73l73j45463g3h9473g2906jki64jj732g7957i64gilli3876i7558i591klk2k15igl509364k191k4g576jk919jj85i30864846k7l9g3124g30lj0462gkg5731ii1k0h3gl34j52l7ij880i9l2l9805538j0ll5k9305g7i362l5094gl560h57ik9850h1398g772554045765g6203g5211j7igggihh50h7j67g4h64g8hi11i207j4982g6988hljkli91jgi12j6h5957j63khil648gjj8l187g35537984h7j80l88g4jh229619i2lkk8k924410klj4626igglg98l072i110525025lgk4g06k049402983315481879060j92lkll6g7429gl13442h8lh08ih85lk657h717g4179429i925iig87jkk56k9i594ji8hl5i57425g"
-        },
-        {
             "key": "huomaoys",
             "name": "火猫┃App",
             "type": 3,
@@ -93,14 +77,6 @@
             "ext": "7lj763gg0939790i413gjh9kk011jijiggll990k9li73l224k770ik0j10l502j2j9l798lhj778hh33g018h94k5j400kij3567j7gji97kkk4118421g03lll"
         },
         {
-            "key": "趣看",
-            "name": "趣看┃无搜索",
-            "type": 3,
-            "api": "csp_Qiji",
-            "playerType": 2,
-            "ext": "7lj763gg402i794245238hjjg45j8295k5hji64882862l321l4215hkkg1l5g001i9k5ihkj6539l8j2208h380k5h21hk8lj2l6i57kgh8i2lj28ih29kh7hh14615kkg5i4h2g57l7h7iij17345hihkk546j27g5g86837h5i6l581j97ig966460g73329575"
-        },
-        {
             "key": "时常",
             "name": "时常┃无搜索",
             "type": 3,
@@ -109,30 +85,12 @@
             "ext": "7lj763gg402i794242218hi3g012959jk7g4il56i98l296l514k16klk257190j149849h29646jk90220jh8i1gihi5gk6k0707857k7h3jll5298h72l97ig24302h6h780hghh763268j25135529il65i7360h4h83467g49il4jlgj08lh3i4k494i389l7kgjk91j921jj608267k5hil4lh4873l0lig25l5271gl6211ii28k0734436314435667k26lj08gh2056g8j1673k44j5lj470j34352k22032h5130833l9425kl3i582769656kl7k2hlh028j983l210j3k272187g15g090j9hj151g22680716j1009117jhi222g5242j49klgijhi587j65l4k019jg955i2k714hj8l3i08jkhl89659g154ikgl97696kk1i87084j18j422l794279j9kgi90j80gkjj20j101j8lig9k5260244l4533496g4g0j144715305710l1ig6174gk65i1l2i8l2i49i58h9129jl62h1h3g74h98ll2752l0l4459hj7gh3k7l7379056049i38l54i88ij1h12lj30l41i3h14k464i15l7310l1kij"
         },
         {
-            "key": "巧技三",
-            "name": "巧技三┃QD4K",
-            "type": 3,
-            "api": "csp_Nox",
-            "playerType": 2,
-            "ext": "7lj763gg0939795i007hi482k70ii2i5hilg9g0h96j16j79035j00h3hh1454000l9353g3j5468g943k5lk7i3h4lj08l7li69775ll0hhi4l2698l2kli61kl0100h8kl8lg3k6676l6h9645325486k25g6330khhg2i72hk94lkj3j17kl93246463536907jgikg119216j57h587728i245h7lk430ki7598l5h12l32217h2840g344861134k5j60kk17j084hi0h13876i08k6395jgj07jg3826k95h4jii1j733llh4354lhi18j0k915l907g50l405l1913j2l743i29479gg3545102879943gk338i3l6159424l7lg43h305i4481i8gki8h7597635g3h146j985122i7l13j7lk9k9jkgh08j10kg0giih781786lk7jl6g86jlj54j36245324j9g6jg0782g2j9658k03i0hlk4kh671501k9503l83k0g88g56221j077l5713hl4g5hhh5g5728993755i2i99i6hj868l7kig55380kj364ik0l4119694g36333756i5g6545jk9210i98391hg6i844g41i8hl5g5h5205l97i"
-        },
-        {
             "key": "优质",
             "name": "优质┃App",
             "type": 3,
             "api": "csp_Qiji",
             "playerType": 2,
             "ext": "7lj763gg402i7942433293i0g9458881hig7j94k818g326i51491kljlk134k401g9g54gk8j5i9097751kh28kh9kj11kjl92k6046l0gkj8l630892glj67g61h48g3kjiigkg0263k6h955430429ill43307gk8k0602hh09lh0j6jh7h"
-        },
-        {
-            "key": "push_agent",
-            "name": "推送",
-            "type": 3,
-            "api": "csp_PushAgent",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 0,
-            "ext": "6666666666666666"
         }
     ],
     "parses": [
