@@ -418,5 +418,12 @@
     ],
     "ads": [
         "43.248.128.138"
-    ]
+    ],
+    "lives": [
+    {
+      "name": "电视直播",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Maskeva/m3l/refs/heads/master/K"
+    }
+  ]
 }
